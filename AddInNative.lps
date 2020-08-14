@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Count="1" Active="Release_x64">
+      <Item1 Name="Release_x86">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="xyz_rs232_x86"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <RelocatableUnit Value="True"/>
+            <TargetCPU Value="i386"/>
+            <TargetOS Value="win32"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <UseLineInfoUnit Value="False"/>
+              <StripSymbols Value="True"/>
+            </Debugging>
+            <Options>
+              <ExecutableType Value="Library"/>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item1>
+    </BuildModes>
+    <Units Count="20">
+      <Unit0>
+        <Filename Value="AddInNative.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="12"/>
+        <CursorPos Y="44"/>
+        <UsageCount Value="59"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="v8addin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="V8AddIn"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="463"/>
+        <CursorPos X="14" Y="14"/>
+        <UsageCount Value="59"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="example.pas"/>
+        <UnitName Value="Example"/>
+        <UsageCount Value="40"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="types.inc"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="59"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="componentbase.inc"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="59"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="addindefbase.inc"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="59"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="imemorymanager.inc"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="59"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="strings.inc"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="59"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="binarydata.inc"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="59"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="variants.inc"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="17" Y="11"/>
+        <UsageCount Value="59"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="bindings.inc"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="59"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="factory.inc"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="868"/>
+        <CursorPos X="25" Y="877"/>
+        <UsageCount Value="59"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="init.inc"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="59"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="easyexample.pas"/>
+        <UnitName Value="EasyExample"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="10" Y="7"/>
+        <UsageCount Value="40"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="exampleform.pas"/>
+        <ComponentName Value="FormExample"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ExampleForm"/>
+        <UsageCount Value="40"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="guiexample.pas"/>
+        <UnitName Value="GUIExample"/>
+        <UsageCount Value="40"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="v8addingui.pas"/>
+        <UnitName Value="V8AddInGUI"/>
+        <UsageCount Value="44"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\Distr\Lazarus\RS232PortPackage\rs232port.pas"/>
+        <UnitName Value="RS232Port"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="7"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="synaser.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2275"/>
+        <CursorPos X="17" Y="746"/>
+        <UsageCount Value="9"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="rs232.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="RS232"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="168"/>
+        <CursorPos X="14" Y="185"/>
+        <FoldState Value=" T3lH0m3 pigkC0B311U"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+      </Unit19>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="141" Column="26" TopLine="124"/>
+      </Position1>
+      <Position2>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="272" Column="53" TopLine="242"/>
+      </Position2>
+      <Position3>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="63" Column="14" TopLine="46"/>
+      </Position3>
+      <Position4>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="71" Column="5" TopLine="46"/>
+      </Position4>
+      <Position5>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="351" Column="25" TopLine="333"/>
+      </Position5>
+      <Position6>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="361" Column="17" TopLine="256"/>
+      </Position6>
+      <Position7>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="378" Column="41" TopLine="360"/>
+      </Position7>
+      <Position8>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="351" TopLine="283"/>
+      </Position8>
+      <Position9>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="35" Column="15" TopLine="25"/>
+      </Position9>
+      <Position10>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="132" Column="19" TopLine="115"/>
+      </Position10>
+      <Position11>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="35" Column="14" TopLine="25"/>
+      </Position11>
+      <Position12>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="73" Column="23" TopLine="58"/>
+      </Position12>
+      <Position13>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="135" Column="26" TopLine="119"/>
+      </Position13>
+      <Position14>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="402" Column="22" TopLine="381"/>
+      </Position14>
+      <Position15>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="417" Column="19" TopLine="398"/>
+      </Position15>
+      <Position16>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="102" Column="39" TopLine="85"/>
+      </Position16>
+      <Position17>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="136" Column="95" TopLine="115"/>
+      </Position17>
+      <Position18>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="164" Column="13" TopLine="140"/>
+      </Position18>
+      <Position19>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="163" Column="14" TopLine="143"/>
+      </Position19>
+      <Position20>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="147" Column="23" TopLine="134"/>
+      </Position20>
+      <Position21>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="12"/>
+      </Position21>
+      <Position22>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="40" TopLine="24"/>
+      </Position22>
+      <Position23>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="94" TopLine="81"/>
+      </Position23>
+      <Position24>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="205" TopLine="190"/>
+      </Position24>
+      <Position25>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="467" TopLine="282"/>
+      </Position25>
+      <Position26>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="472" TopLine="441"/>
+      </Position26>
+      <Position27>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="483" TopLine="441"/>
+      </Position27>
+      <Position28>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="47" TopLine="30"/>
+      </Position28>
+      <Position29>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="467" Column="5" TopLine="429"/>
+      </Position29>
+      <Position30>
+        <Filename Value="rs232.pas"/>
+        <Caret Line="59" Column="7" TopLine="37"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
